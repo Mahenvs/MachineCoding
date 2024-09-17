@@ -1,0 +1,16 @@
+export const data = [
+    "Apple",
+    "Apple1",
+    "Apple2",
+    "Apple",
+    "Apple",
+    "Apple1",
+    "Apple2",
+    "Apple",
+    "Mango",
+    "Blueberry",
+    "Banana",
+    "Cherry",
+    "Strawberry",
+    "Kiwi",
+  ];
