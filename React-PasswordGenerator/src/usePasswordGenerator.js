@@ -10,7 +10,6 @@ const usePasswordGenerator = (passwordOptions, length) => {
     
     const values = passwordOptions.filter((item) => item.state == true);
     if(values.length ==0){
-      console.log(values.length);
       setErrorMsg("Check any of the available options")
       setPassword("");
       return;

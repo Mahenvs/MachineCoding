@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --default-color:#888;
+  --active-color:#f00
+}
+.likeBtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--default-color);
+  width: max-content; 
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+
+}
+
+.likeBtn:hover{  border: 2px solid var(--active-color);
+
+}
